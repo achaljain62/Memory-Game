@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #0e2f17;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#text {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15vw;
+  margin-right: 10vw;
+}
+
+#header {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+h1 {
+  color: white;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1300px;
+  justify-content: center;
+  margin: 5vh 0 10vw 10vw;
+  cursor: pointer;
+}
+.grid img {
+  padding: 5px;
+  width: 200px;
+  margin: 0;
+}
